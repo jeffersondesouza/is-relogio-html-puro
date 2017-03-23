@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="http://eg.com/favicon.png" />
+    <title>[iS] | Teste Front End</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/relogio.css">
+    <link rel="stylesheet" href="assets/css/botao.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-title header-footer">
+            <h1>Sistema de Gestão Empresarial</h1>
+        </div>
+    </header>
+    <main class="container">
+        <div class="relogio-div">
+     
+
+                <div class="relogio">
+                    <canvas id="relogio-canvas" class="relogio-canvas" width="300" height="300">
+
+                    </canvas>
+                </div>
+
+
+        </div>
+    </main>
+    <footer class="header-footer">
+        
+        <div class="container text-right">
+            <button class="btn btn-primary btn-esconde-relogio">Esconde Relógio</button>
+        </div>
+
+        <div class="container text-right">
+            <button class="btn btn-primary btn-mostra-relogio elemento-escondido">Mostra Relógio</button>
+        </div>
+
+
+    </footer>
+
+    <script src="assets\js\numeros-relogio.js"></script>
+    <script src="assets\js\esconde-relogio.js"></script>
+    
+</body>
+
+</html>
